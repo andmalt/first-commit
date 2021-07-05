@@ -6,8 +6,42 @@
 body{
     background-color: rgb(156, 195, 221);
 }
+main{
+    margin: 20px 80px;
+}
+
 header h1{
     text-align: center;
     color: white;
     font-size: 80px;
+}
+.row .card{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 10px 30px;
+    
+}
+.row{
+    text-align: center;
+}
+
+div img:first-child{
+    display: none;
+    z-index: 1;
+}
+div img:only-of-type{
+    display: initial;
+}
+div span{
+    z-index: 2;
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+.card img{
+    width: 100%;
+    height: 100%;
 }
