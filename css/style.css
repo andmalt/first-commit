@@ -7,6 +7,9 @@
 body{
     background-color: rgb(156, 195, 221);
 }
+main{
+    padding: 25px;
+}
 header h1{
     text-align: center;
     color: white;
@@ -54,4 +57,10 @@ header h1{
 }
 .card:hover .pattern{
     display: none;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
 }
